@@ -1,0 +1,73 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@500&family=Karla:wght@300;400&family=Markazi+Text:wght@400;500&display=swap');
+
+.App{
+    width: 80%;
+    margin: 0 auto;
+
+
+    .nav{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 20px 0;
+        padding: 0 10%;
+
+        img{
+            width: 30px;
+        }
+    }
+
+    .main{
+        text-align: center;
+        background: #495E57;
+        padding: 3% 10%;
+
+        h1{
+            font-family: 'Markazi Text', serif;
+            color: #F4CE14;
+            font-size: 64px;
+            font-weight: 400;
+        }
+
+        .select{
+            display: flex;
+            justify-content: space-between;
+            margin-bottom: 20px;
+            background: #E5E5E5;
+            padding: 0 10px;
+
+            p{
+                font-family: 'Karla', sans-serif;
+                font-weight: 600;
+            }
+        }
+    }
+
+    .button{
+        text-align: center;
+        background: #495E57;
+        padding: 0 10% 40px 10%;
+        
+        button{
+            width: 100%;
+            height: 40px;
+            border-radius: 40px;
+            font-family: 'Inter', sans-serif;
+            background: #F4CE14;
+            border: 0;
+        }
+    }
+}
+
+@media screen and (min-width: 700px) {
+    .App{
+        width: 60%;
+    }
+}
+
+@media screen and (min-width: 1000px) {
+    .App{
+        width: 50%;
+    }
+}
